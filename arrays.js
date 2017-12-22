@@ -14,5 +14,5 @@ function addElementToBeginningOfArray(array, element) {
   var array = [element1, element2, element3]
   var element = 'foo';
   var element5 = '1';
-  return [element, ...array, element5, element5];
+  return [element, ...array];
 }
