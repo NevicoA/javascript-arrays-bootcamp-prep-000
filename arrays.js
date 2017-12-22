@@ -13,6 +13,6 @@ function addElementToBeginningOfArray(array, element) {
   var element3 = "3";
   var array = [element1, element2, element3]
   var element = 'foo';
-  var element5 = '+1';
+  var element5 = '1';
   return [element, ...array, element5];
 }
